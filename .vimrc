@@ -154,7 +154,11 @@ set guioptions-=T   " remove toolbar
 
 " Tab Settings
 set smarttab
-set tabstop=8
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set listchars=tab:\|\ ,eol:¬
 
 " Highlight characters past column 120
 augroup vimrc_autocmds
